@@ -1,5 +1,6 @@
 html{
     font-size: 62.5%;
+	font-family:"微软雅黑";
 }
 body{
     font-size: 14px;
@@ -45,7 +46,28 @@ ul li{ list-style-type: none;}
 .bannerText button{background: #24547e; color:#eb6877;border-radius: 20px; border: none; margin-left: 20px;}
 
 
-
+/*login*/
+.login-bg img{min-height:330px;}
+.login-text{position: absolute;z-index: 99;width: 30%;min-width: 500px; max-width: 375px; left: 15%; top:20%;
+	color: #ffffff;}
+.sign-main{overflow: hidden;}
+.sign-main .sign-bg img{width: 100%;position: relative;z-index: 1; min-height:460px ;}
+.sign-form{position: absolute;z-index: 999;width: 23%;min-width: 340px; max-width: 375px;padding: 30px;background: #b0cede;top:0;right: 15%;}
+.sign-form h3{ font-size: 16px; color: #333333;}
+.sign-form h3 a{ font-size: 14px; margin-left: 90px;}
+.sign-remember{float: left;}
+.sign-login{float: right;line-height: 38px;}
+.sign-btn{width: 100%;background: #4385f5;color: #fff;}
+.login-btn{width: 100%;background: #24547e;color: #fff;}
+.sign-btn:hover{color: #fff!important;}
+.sign-lasta{color: #666;}
+.input-group{width: 100% ;}
+.form-control{ border-radius: 5px !important;}
+/*register*/
+.register-box{ position: absolute; width: 440px; height: 300px; top:6%; left: 50%;  background: rgba(255,255,255,0.3); margin-left: -230px; }
+.register-control{ display: block; width: 80%; margin: 0 auto; margin-bottom: 5%; background: #ffffff; color: #999999; height: 36px; border-radius: 5px; text-indent: 10px;}
+.register-btn{ width: 80%; margin:0 auto;  height: 36px;background: #24547e;color: #fff;}
+.register-box>div>div{ margin-top: 10%;}
 
 /*index*/
 .index-pic{ margin-bottom: 50px;}
@@ -146,7 +168,7 @@ ul li{ list-style-type: none;}
 .footer-pic .picture .icon{margin-top:35px;}
 .footer-pic .picture>li:first-child{margin-right:10%;	}
 .footer-pic .text{margin-top:50px;  float: left; width: 13%;	}
-.footer-pic .text li a{color: #ffffff;line-height: 26px;};
+.footer-pic .text li a{color: #ffffff;line-height: 26px;}
 .footer-pic .text .large{font-size: 20px;}
 .footer2{ overflow-x: hidden; padding: 5px 0 20px 0;  background:#204b74;}
 .copy-right p{color: #ffffff; text-align: center; }
@@ -162,6 +184,10 @@ ul li{ list-style-type: none;}
 
 @media (min-width:1200px){
 	.navLi{padding-left: 20px!important;padding-right: 20px!important;}
+}
+@media (max-width:1170px){
+	.login-text{ display: none}
+	.sign-form{ right: 32%;}
 }
 
 @media (max-width:995px){
@@ -195,6 +221,15 @@ ul li{ list-style-type: none;}
 .footer-pic .picture{ width: 100%;}
 .footer-pic .picture  { display: none;}
 }
+@media (max-width:600px){
+	.sign-form{ right: 15%;}
+}
+
+
+
+
+
+
 @media (max-width:575px){
 
 .bannerText {top: 2%;}
@@ -206,6 +241,17 @@ ul li{ list-style-type: none;}
 .bannerText button{ margin-left: 0;}
 .carousel-caption{ padding-top: 0!important;}
 }
+
+
+
+@media (max-width:500px){
+    .register-box{ width: 400px;margin-left: -200px;}
+    .register-control{ width: 70%;}
+    .register-btn{ width: 70%;}
+}
+
+
+
 @media (max-width:520px){
 .index-text .left{ width: 25%;}
 .index-text .left h5{ font-size: 12px;}
@@ -234,6 +280,21 @@ ul li{ list-style-type: none;}
 	
 	.nav-mybutton{margin-right: 20px;}
     .nav-icon img{margin-left: 15px;}
+}
+@media (max-width:460px){
+	.sign-form{ right:10%;}
+
+}
+
+@media (max-width:400px){
+	.sign-form{ right:5%;}
+}
+@media (max-width:370px){
+	.sign-form{ right:3%;}
+}
+
+@media (max-width:350px){
+	.sign-form{ right:0;}
 }
 
 @media (max-width:420px){
