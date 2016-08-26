@@ -69,6 +69,15 @@ ul li{ list-style-type: none;}
 .register-btn{ width: 80%; margin:0 auto;  height: 36px;background: #24547e;color: #fff;}
 .register-box>div>div{ margin-top: 10%;}
 
+/*case-page*/
+.case-page h3{color: #000000;font-size: 18px;}
+.case-page-text h3{color: #000000;font-size: 18px;}
+.case-page-text p{color: #000000;font-size: 14px; text-indent: 20px;}
+.agree-disagree{margin: 30px 0;}
+.agree-disagree> .pull-left{color: #000000}
+.agree-disagree> .pull-right{color: #999999;}
+.agree-disagree> .pull-right a{color: #999999;}
+
 /*index*/
 .index-pic{ margin-bottom: 50px;}
 .product-pic{ text-align: center;}
@@ -120,6 +129,8 @@ ul li{ list-style-type: none;}
 .case-border-headL{background: #fff;height: 20px;}
 .case-border-headR{background: #fff;height: 20px;}
 .case-border-headCenter{padding: 0 !important;float: left;width: 40%;height: 20px;background: #fff;margin-top: 3px;}
+.case-page-pic a{ display:block;color: #ffffff; background: #24547e;padding: 4px 10px; margin: 20px auto; width: 260px; text-align: center; border-radius:15px;}
+.case-page-pic a:hover{color: #999999;}
 
 /*expand*/
 .expand-list{padding-left: 0;}
@@ -147,17 +158,6 @@ ul li{ list-style-type: none;}
 .tempalte-pic>h5{ color: #000; font-size: 16px;}
 .tempalte-pic2>div{text-align: center;}
 .tempalte-pic2 span{ color: #c01c1c;}
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*footer*/
@@ -195,7 +195,6 @@ ul li{ list-style-type: none;}
 	
 }
 
-
 @media (max-width:885px){
 .bannerText h1 {font-size: 20px;}
 	
@@ -224,12 +223,6 @@ ul li{ list-style-type: none;}
 @media (max-width:600px){
 	.sign-form{ right: 15%;}
 }
-
-
-
-
-
-
 @media (max-width:575px){
 
 .bannerText {top: 2%;}
@@ -242,16 +235,11 @@ ul li{ list-style-type: none;}
 .carousel-caption{ padding-top: 0!important;}
 }
 
-
-
 @media (max-width:500px){
     .register-box{ width: 400px;margin-left: -200px;}
     .register-control{ width: 70%;}
     .register-btn{ width: 70%;}
 }
-
-
-
 @media (max-width:520px){
 .index-text .left{ width: 25%;}
 .index-text .left h5{ font-size: 12px;}
@@ -259,9 +247,6 @@ ul li{ list-style-type: none;}
 .index-text .left p{ display: none;}
 .index-text .right{ width: 75%;}
 }
-
-
-
 
 @media (max-width:612px){
    .footer-pic .picture{ display: none;}
@@ -283,7 +268,6 @@ ul li{ list-style-type: none;}
 }
 @media (max-width:460px){
 	.sign-form{ right:10%;}
-
 }
 
 @media (max-width:400px){
@@ -292,16 +276,13 @@ ul li{ list-style-type: none;}
 @media (max-width:370px){
 	.sign-form{ right:3%;}
 }
-
 @media (max-width:350px){
 	.sign-form{ right:0;}
 }
-
 @media (max-width:420px){
 .copy-right{font-size: 12px; padding-left: 10px; padding-right: 10px;}
 
 }
-
 @media (max-width:395px){
 .expand-page h4{ position: relative; margin-left: 50px;}
 
